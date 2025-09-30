@@ -5,5 +5,5 @@ export const items = [
 	{ title: 'Projects', to: '/projects', icon: 'i-carbon-cube' },
 	{ title: 'Experience', to: '/experience', icon: 'i-carbon-development' },
 	// { title: 'Education', to: '/education', icon: 'i-carbon-education' },
-	{ title: 'Resume', to: `${base}/resume.pdf`, icon: 'i-carbon-result' }
+	{ title: 'Resume', to: '/resume.pdf', icon: 'i-carbon-result' }
 ] as const;
