@@ -70,7 +70,24 @@ const Assets = {
 	Jest: a('jest.png'),
 	Unocss: a('unocss.svg'),
 	Ruvy: a('ruvy.svg'),
-	Postcss: a('postcss.svg')
+	Postcss: a('postcss.svg'),
+	Nextjs: a('nextjs.svg'),
+	Azure: a('azure.svg'),
+	Vercel: a('vercel.svg'),
+	Netlify: a('netlify.svg'),
+	GitHub: a('github.svg'),
+	Supabase: a('supabase.svg'),
+	PowerApps: a('powerapps.svg'),
+	PowerAutomate: a('powerautomate.svg'),
+	SharePoint: a('sharepoint.svg'),
+	Freshworks: a('freshworks.svg'),
+	Jira: a('jira.svg'),
+	ChakraUI: a('chakraui.svg'),
+	Dexie: a('dexie.svg'),
+	WVC: a('wvc.svg'),
+	Enjou: a('enjou.jpeg'),
+	Microsoft: a('microsoft.svg'),
+	CodeNinjas: a('codeninjas.jpeg')
 };
 
 export default Assets;

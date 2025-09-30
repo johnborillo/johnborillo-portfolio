@@ -34,9 +34,8 @@
 					<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-3 lg:gap-5 ">
 						{#each group.items as skill (skill.slug)}
 							<Card
-								classes={['cursor-pointer decoration-none']}
+								classes={['decoration-none']}
 								tiltDegree={1}
-								href={`${base}/skills/${skill.slug}`}
 								bgImg={getAssetURL(skill.logo)}
 								color={skill.color}
 							>
@@ -49,3 +48,8 @@
 		</div>
 	{/if}
 </SearchPage>
+
+<!-- 
+classes={['cursor-pointer decoration-none']}
+href={`${base}/skills/${skill.slug}`}
+-->
