@@ -12,8 +12,24 @@ export const items: Array<Project> = [
 		shortDescription:
 			'A PWA that helps you reflect on your days by tracking novelty and perceived day length to reveal patterns in how you experience time.',
 		links: [
-			{ to: 'https://mnemo-tan.vercel.app/', label: 'Website' },
-			{ to: 'https://github.com/johnborillo/mnemo', label: 'GitHub' }
+			{
+				to: 'https://mnemo-tan.vercel.app/',
+				label: 'Website',
+				icon: 'i-carbon-link',
+				newTab: true
+			},
+			{
+				to: 'https://github.com/johnborillo/mnemo',
+				label: 'GitHub',
+				icon: 'i-carbon-logo-github',
+				newTab: true
+			},
+			{
+				to: 'https://drive.google.com/file/d/1iIT5zSoJY4NaeVPcTfuGFdoK5PsFJvXI/view?usp=sharing',
+				label: 'Independent Study',
+				icon: 'i-carbon-align-box-top-right',
+				newTab: true
+			}
 		],
 		logo: Assets.Unknown,
 		name: 'mnemo',
@@ -48,7 +64,14 @@ export const items: Array<Project> = [
 			'FilmBase is a React application built with Vite that allows users to explore various film characteristics. This project leverages modern web development tools and practices, including Tailwind CSS for styling, React Router for client-side routing, and several utility libraries to enhance the development experience.',
 		shortDescription:
 			'A central database/repository where users can scout for photos based on different film stocks. (WIP)',
-		links: [{ to: 'https://github.com/johnborillo/filmbase', label: 'GitHub' }],
+		links: [
+			{
+				to: 'https://github.com/johnborillo/filmbase',
+				label: 'GitHub',
+				icon: 'i-carbon-logo-github',
+				newTab: true
+			}
+		],
 		logo: Assets.Unknown,
 		name: 'Filmbase',
 		period: {
@@ -64,7 +87,14 @@ export const items: Array<Project> = [
 			'The ellehacks2023 project is a hackathon-built web platform designed to help users discover and evaluate NGOs by providing details on their mission, impact, and transparency, with search and filtering by geography or issue area. Inspired by real-world disasters, it aims to connect people to relevant organizations and encourage responsible giving, while also tracking contributions to foster engagement. Built with React, Material UI, Node.js, Express, OpenAI’s API, and ECharts, the project focused on rapid prototyping under time constraints and strong teamwork. Future plans include integrating MongoDB for a full MERN stack, improving responsiveness and UI/UX, and adding distinct authentication flows for users and NGOs.',
 		shortDescription:
 			"Ellehacks 2023 hackathon project. We provide detailed information about each NGO's mission, impact, financial transparency, and accountability.",
-		links: [{ to: 'https://github.com/johnborillo/filmbase', label: 'GitHub' }],
+		links: [
+			{
+				to: 'https://github.com/johnborillo/filmbase',
+				label: 'GitHub',
+				icon: 'i-carbon-logo-github',
+				newTab: true
+			}
+		],
 		logo: Assets.Unknown,
 		name: 'ellehacks2023',
 		period: {
@@ -81,7 +111,14 @@ export const items: Array<Project> = [
 			'System aimed at improving transparency, efficiency, and security in the supply chain industry. Utilizing blockchain technology, the system aims to provide real-time tracking and verification of goods, as well as enabling secure and seamless communication.',
 		shortDescription:
 			'nwHacks 2023 project - A decentralized supply chain management system built with React and Solidity',
-		links: [{ to: 'https://github.com/johnborillo/ChainLink', label: 'GitHub' }],
+		links: [
+			{
+				to: 'https://github.com/johnborillo/ChainLink',
+				label: 'GitHub',
+				icon: 'i-carbon-logo-github',
+				newTab: true
+			}
+		],
 		logo: Assets.Unknown,
 		name: 'ChainLink',
 		period: {

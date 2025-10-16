@@ -50,9 +50,9 @@
 					</div>
 					<div class="row-center flex-wrap text-[0.9em] text-[var(--tertiary-text)] m-b-2">
 						{#each data.project.links as item}
-							<Chip href={item.to}>
+							<Chip href={item.to} target={item.newTab ? "_blank" : undefined}>
 								<div class="row-center gap-2">
-									<UIcon icon="i-carbon-link" />
+									<UIcon icon={item.icon} />
 									<span>{item.label}</span>
 								</div>
 							</Chip>
@@ -62,7 +62,6 @@
 						{#each data.project.skills as item}
 							<Chip
 								classes="inline-flex flex-row items-center justify-center"
-								href={`${base}/skills/${item.slug}`}
 							>
 								<CardLogo
 									src={getAssetURL(item.logo)}

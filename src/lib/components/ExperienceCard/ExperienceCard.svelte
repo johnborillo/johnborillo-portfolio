@@ -74,7 +74,7 @@
 					<ChipIcon
 						logo={getAssetURL(skill.logo)}
 						name={skill.name}
-						href={`${base}/skills/${skill.slug}`}
+						href=" "
 					/>
 				{/each}
 			</div>

@@ -36,11 +36,12 @@ export interface Link {
 	to: string;
 	label: string;
 	newTab?: boolean;
+	icon?: Icon;
 }
 
-export interface IconLink extends Link {
-	icon: Asset;
-}
+// export interface IconLink extends Link {
+// 	icon: Asset;
+// }
 
 export interface SkillCategory<S extends string = string> {
 	slug: S;
