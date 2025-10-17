@@ -13,7 +13,7 @@ export const items: Array<Project> = [
 			'A PWA that helps you reflect on your days by tracking novelty and perceived day length to reveal patterns in how you experience time.',
 		links: [
 			{
-				to: 'https://mnemo-tan.vercel.app/',
+				to: 'https://mnemojournal.vercel.app/',
 				label: 'Website',
 				icon: 'i-carbon-link',
 				newTab: true
